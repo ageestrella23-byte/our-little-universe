@@ -1193,16 +1193,15 @@ export default class UniverseApp {
                 ""
             ),
 
-           new Memory(
+          new Memory(
     "A Song I Dedicate to You",
     "Bawat Daan",
     `
-    <div class="memory-letter song-letter">
+    <div class="memory-letter song-intro-letter">
 
         <p class="letter-opening">
-            I dedicate this whole song to you, “Bawat Daan.”
             This song is one of the most special stars in this little universe,
-            because every time I hear it, all I can think of is you.
+            because every time I hear it, I remember you.
         </p>
 
         <div class="song-quote">
@@ -1210,80 +1209,15 @@ export default class UniverseApp {
         </div>
 
         <p>
-            I can clearly remember the day na una mo itong pinarinig sa akin.
-            At that time, I did not know that a song could suddenly become a memory,
-            a feeling, and a place my heart could return to.
-            But from then on, every time na naririnig ko itong kantang ito,
-            ikaw agad ang pumapasok sa isip ko.
+            Before you read the letter below, I want you to play this song first.
+            Listen to it knowing that every word, every feeling, and every road in this song
+            reminds me of you.
         </p>
 
-        <p>
-            It became more than just music to me.
-            It became a quiet reminder of you.
-            A reminder of us.
-            A reminder of how every road in my heart somehow leads back to you,
-            no matter where I am, no matter what I am feeling,
-            and no matter how difficult the day becomes.
+        <p class="letter-ending">
+            This is not just a song for me anymore.
+            This is one of the many ways my heart remembers you.
         </p>
-
-        <p>
-            There is a part of the song that says,
-            <span class="soft-highlight">“Ikaw ang dulo.”</span>
-            And somehow, that line feels like one of the simplest and truest ways
-            to explain what you are to me.
-            You are not just someone I met along the way.
-            You became the direction my heart follows,
-            the answer it keeps finding,
-            and the home it keeps choosing.
-        </p>
-
-        <div class="letter-divider">✦</div>
-
-        <p>
-            Mula noong nakilala kita, parang nagkaroon ng saysay ang bawat lakad,
-            bawat pagod, bawat pangarap, at bawat takot ko.
-            Before you, there were days when I felt like I was only moving forward
-            without fully knowing where I was going.
-            But then you came into my life,
-            and suddenly, everything felt softer.
-            Everything felt warmer.
-            Everything felt like it had a destination.
-        </p>
-
-        <p>
-            You are my calm after every tiring day.
-            You are the person I want to run to when the world feels heavy.
-            You are the name my heart looks for in silence.
-            Sa bawat saya, sa bawat lungkot, sa bawat pagod,
-            at sa bawat pangarap, ikaw ang naiisip kong uuwian.
-        </p>
-
-        <div class="song-quote">
-            “Kung ang puso ko ay imamapa, ikaw ang dulo, gitna, at simula.”
-        </div>
-
-        <p>
-            This song reminds me that love is not always about perfect roads.
-            Sometimes, love is about choosing the same person even when the road is hard,
-            even when the path is uncertain,
-            and even when there are so many questions.
-            And for me, no matter how many doubts, turns, distances, or difficult days there may be,
-            my heart already knows the answer.
-        </p>
-
-        <p>
-            If my heart could be mapped,
-            you would be the beginning, the middle, and the place it always returns to.
-            Not because the road is always easy,
-            but because loving you makes every road worth taking.
-        </p>
-
-        <div class="song-ending">
-            <p>Ikaw ang bawat daan ko.</p>
-            <p>Ikaw ang pahinga ko.</p>
-            <p>Ikaw ang pinipili ko.</p>
-            <p>Ikaw ang uuwian ko.</p>
-        </div>
 
     </div>
     `,
@@ -1612,8 +1546,99 @@ export default class UniverseApp {
     ""
 )
 
-        this.memories[8].video = "videos/bawat-daan.mp4";
-        this.memories[8].dedication = `I dedicate this whole song to you, “Bawat Daan.”
+       this.memories[8].video = "videos/bawat-daan.mp4";
+
+this.memories[8].dedication = `
+    <div class="song-dedication-letter">
+
+        <h3>A Dedication For You</h3>
+
+        <p class="dedication-opening">
+            I dedicate this whole song to you, <span>“Bawat Daan.”</span>
+        </p>
+
+        <p>
+            I can clearly remember the day na una mo itong pinarinig sa akin.
+            At that time, I did not know that a song could suddenly become a memory,
+            a feeling, and a place my heart could return to.
+            But from then on, every time na naririnig ko itong kantang ito,
+            ikaw agad ang naiisip ko.
+        </p>
+
+        <p>
+            It became more than just music to me.
+            It became a quiet reminder of you.
+            A reminder of us.
+            A reminder of how every road in my heart somehow leads back to you,
+            no matter where I am, no matter what I am feeling,
+            and no matter how difficult the day becomes.
+        </p>
+
+        <div class="song-quote">
+            “Ikaw ang bawat daan ko.”
+        </div>
+
+        <p>
+            There is a part of the song that says,
+            <span class="soft-highlight">“Ikaw ang dulo.”</span>
+            And somehow, that line feels like one of the simplest and truest ways
+            to explain what you are to me.
+            You are not just someone I met along the way.
+            You became the direction my heart follows,
+            the answer it keeps finding,
+            and the home it keeps choosing.
+        </p>
+
+        <p>
+            Mula noong nakilala kita, parang nagkaroon ng saysay ang bawat lakad,
+            bawat pagod, bawat pangarap, at bawat takot ko.
+            Before you, there were days when I felt like I was only moving forward
+            without fully knowing where I was going.
+            But then you came into my life,
+            and suddenly, everything felt softer.
+            Everything felt warmer.
+            Everything felt like it had a destination.
+        </p>
+
+        <p>
+            You are my calm after every tiring day.
+            You are the person I want to run to when the world feels heavy.
+            You are the name my heart looks for in silence.
+            Sa bawat saya, sa bawat lungkot, sa bawat pagod,
+            at sa bawat pangarap, ikaw ang naiisip kong uuwian.
+        </p>
+
+        <div class="song-quote">
+            “Kung ang puso ko ay imamapa, ikaw ang dulo, gitna, at simula.”
+        </div>
+
+        <p>
+            This song reminds me that love is not always about perfect roads.
+            Sometimes, love is about choosing the same person even when the road is hard,
+            even when the path is uncertain,
+            and even when there are so many questions.
+            And for me, no matter how many doubts, turns, distances,
+            or difficult days there may be,
+            my heart already knows the answer.
+        </p>
+
+        <p>
+            If my heart could be mapped,
+            you would be the beginning, the middle,
+            and the place it always returns to.
+            Not because the road is always easy,
+            but because loving you makes every road worth taking.
+        </p>
+
+        <div class="song-ending">
+            <p>Ikaw ang bawat daan ko.</p>
+            <p>Ikaw ang pahinga ko.</p>
+            <p>Ikaw ang pinipili ko.</p>
+            <p>Ikaw ang uuwian ko.</p>
+        </div>
+
+    </div>
+`;
 
 I still remember the day na una mo itong pinarinig sa akin. I did not know that a song could suddenly become a place, a memory, and a feeling, but from that moment on, every time na naririnig ko itong kantang ito, ikaw agad ang naiisip ko. It became more than just music. It became a quiet reminder of you, of us, and of how every road in my heart somehow leads back to you.
 
