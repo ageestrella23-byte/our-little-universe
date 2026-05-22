@@ -1,7 +1,7 @@
-import Memory from "./Memory.js";
+import Memory from "./memory.js";
 import ShootingStar from "./ShootingStar.js";
 import BackgroundStar from "./BackgroundStar.js";
-import Sparkle from "./Sparkle.js";
+import Sparkle from "./sparkle.js";
 
 export default class UniverseApp {
     constructor() {
@@ -1193,59 +1193,103 @@ export default class UniverseApp {
                 ""
             ),
 
-            new Memory(
-                "A Song I Dedicate to You",
-                "Bawat Daan",
-                `
-                <div class="memory-letter song-letter">
-                    <p class="letter-opening">
-                        This song is one of the most special stars in this little universe,
-                        because every time I hear it, I remember you.
-                    </p>
+           new Memory(
+    "A Song I Dedicate to You",
+    "Bawat Daan",
+    `
+    <div class="memory-letter song-letter">
 
-                    <p>
-                        I dedicate this whole song to you, “Bawat Daan.”
-                        I still remember the day na una mo itong pinarinig sa akin.
-                        I did not know that a song could suddenly become a place, a memory, and a feeling,
-                        but from that moment on, every time na naririnig ko itong kantang ito,
-                        ikaw agad ang naiisip ko.
-                    </p>
+        <p class="letter-opening">
+            I dedicate this whole song to you, “Bawat Daan.”
+            This song is one of the most special stars in this little universe,
+            because every time I hear it, all I can think of is you.
+        </p>
 
-                    <p>
-                        It became more than just music.
-                        It became a quiet reminder of you, of us,
-                        and of how every road in my heart somehow leads back to you.
-                    </p>
+        <div class="song-quote">
+            “Ikaw ang bawat daan ko.”
+        </div>
 
-                    <p>
-                        There is a line in the song that says, “Ikaw ang dulo,”
-                        and that small line feels like one of the simplest ways to explain what you are to me.
-                        You are not just someone I met along the way.
-                        You became the direction my heart follows,
-                        the answer it keeps finding,
-                        and the home it keeps choosing.
-                    </p>
+        <p>
+            I can clearly remember the day na una mo itong pinarinig sa akin.
+            At that time, I did not know that a song could suddenly become a memory,
+            a feeling, and a place my heart could return to.
+            But from then on, every time na naririnig ko itong kantang ito,
+            ikaw agad ang pumapasok sa isip ko.
+        </p>
 
-                    <p>
-                        Mula noong nakilala kita,
-                        parang nagkaroon ng saysay ang bawat lakad,
-                        bawat pagod, bawat pangarap, at bawat takot ko.
-                        Before you, there were days when I felt like I was only moving forward
-                        without knowing where I was really going.
-                        But then you came, and suddenly, everything felt softer.
-                        Everything felt warmer.
-                        Everything felt like it had a destination.
-                    </p>
+        <p>
+            It became more than just music to me.
+            It became a quiet reminder of you.
+            A reminder of us.
+            A reminder of how every road in my heart somehow leads back to you,
+            no matter where I am, no matter what I am feeling,
+            and no matter how difficult the day becomes.
+        </p>
 
-                    <div class="memory-quote">
-                        “Ikaw ang bawat daan ko. Ikaw ang pahinga ko. Ikaw ang pinipili ko. Ikaw ang uuwian ko.”
-                    </div>
-                </div>
-                `,
-                "",
-                ""
-            ),
+        <p>
+            There is a part of the song that says,
+            <span class="soft-highlight">“Ikaw ang dulo.”</span>
+            And somehow, that line feels like one of the simplest and truest ways
+            to explain what you are to me.
+            You are not just someone I met along the way.
+            You became the direction my heart follows,
+            the answer it keeps finding,
+            and the home it keeps choosing.
+        </p>
 
+        <div class="letter-divider">✦</div>
+
+        <p>
+            Mula noong nakilala kita, parang nagkaroon ng saysay ang bawat lakad,
+            bawat pagod, bawat pangarap, at bawat takot ko.
+            Before you, there were days when I felt like I was only moving forward
+            without fully knowing where I was going.
+            But then you came into my life,
+            and suddenly, everything felt softer.
+            Everything felt warmer.
+            Everything felt like it had a destination.
+        </p>
+
+        <p>
+            You are my calm after every tiring day.
+            You are the person I want to run to when the world feels heavy.
+            You are the name my heart looks for in silence.
+            Sa bawat saya, sa bawat lungkot, sa bawat pagod,
+            at sa bawat pangarap, ikaw ang naiisip kong uuwian.
+        </p>
+
+        <div class="song-quote">
+            “Kung ang puso ko ay imamapa, ikaw ang dulo, gitna, at simula.”
+        </div>
+
+        <p>
+            This song reminds me that love is not always about perfect roads.
+            Sometimes, love is about choosing the same person even when the road is hard,
+            even when the path is uncertain,
+            and even when there are so many questions.
+            And for me, no matter how many doubts, turns, distances, or difficult days there may be,
+            my heart already knows the answer.
+        </p>
+
+        <p>
+            If my heart could be mapped,
+            you would be the beginning, the middle, and the place it always returns to.
+            Not because the road is always easy,
+            but because loving you makes every road worth taking.
+        </p>
+
+        <div class="song-ending">
+            <p>Ikaw ang bawat daan ko.</p>
+            <p>Ikaw ang pahinga ko.</p>
+            <p>Ikaw ang pinipili ko.</p>
+            <p>Ikaw ang uuwian ko.</p>
+        </div>
+
+    </div>
+    `,
+    "",
+    ""
+),
             new Memory(
                 "The Quiet Moments",
                 "The simple days with you",
@@ -1459,46 +1503,114 @@ export default class UniverseApp {
             ),
 
             new Memory(
-                "Always You",
-                "In every universe",
-                `
-                <div class="memory-letter">
-                    <p class="letter-opening">
-                        If I had to choose again, in another life, another world,
-                        another road, and another sky,
-                        I would still choose you.
-                    </p>
+    "Always You",
+    "In every universe",
+    `
+    <div class="memory-letter always-letter">
 
-                    <div class="memory-quote">
-                        “In every universe, it would still be you.”
-                    </div>
+        <p class="letter-opening">
+            If I had to choose again, in another life, another world,
+            another road, and another sky, I would still choose you.
+            Not because everything is always easy,
+            not because love is always perfect,
+            but because my heart knows that you are the person it wants to keep choosing.
+        </p>
 
-                    <p>
-                        You are the person my heart keeps coming back to.
-                        In the memories, in the quiet moments, in the promises,
-                        in the songs, and in every little dream I have for the future,
-                        ikaw pa rin ang pipiliin ko.
-                    </p>
+        <div class="always-quote">
+            “In every universe, in every lifetime, in every version of me, it would still be you.”
+        </div>
 
-                    <p>
-                        No matter how many seasons pass,
-                        no matter how many roads we take,
-                        and no matter how much life changes,
-                        I hope you always remember that you are not just someone I love for now.
-                        You are someone my heart wants to keep choosing, again and again.
-                    </p>
+        <p>
+            You are the person my heart keeps coming back to.
+            In the memories, in the quiet moments, in the promises,
+            in the songs, in the little dreams I have for the future,
+            ikaw pa rin ang pipiliin ko.
+            Again and again, through every season, through every road,
+            through every version of life I can imagine,
+            my heart would still find its way back to you.
+        </p>
 
-                    <p class="letter-ending">
-                        No matter where life takes us,
-                        no matter how many stars fill this sky,
-                        my heart will always know its way back to you.
-                    </p>
-                </div>
-                `,
-                "",
-                ""
-            )
-        ];
+        <p>
+            I want you to know that you are not just someone I love for now.
+            You are not just a beautiful chapter I want to remember.
+            You are someone I want beside me in the life I am slowly dreaming of.
+            Someone I want to grow with.
+            Someone I want to come home to.
+            Someone I want to choose even on days when love requires patience,
+            understanding, forgiveness, and effort.
+        </p>
+
+        <div class="letter-divider">✦</div>
+
+        <p>
+            There are so many things in this world that can change.
+            Plans can change.
+            Days can change.
+            Seasons can change.
+            Life can surprise us in ways we never expected.
+            But one thing I hope you always feel from me is this:
+            my love for you is sincere.
+            My choice of you is not careless.
+            And my heart does not look at you as something temporary.
+        </p>
+
+        <p>
+            You are the person I want in the ordinary days.
+            In the sleepy mornings.
+            In the tired evenings.
+            In the random food trips.
+            In the quiet walks.
+            In the days when nothing special happens,
+            but everything still feels meaningful because I am with you.
+        </p>
+
+        <p>
+            You are also the person I want in the difficult days.
+            When life feels heavy.
+            When the road feels confusing.
+            When things do not go exactly as planned.
+            I do not only want the easy parts with you.
+            I want the real parts too.
+            The growing, learning, healing, and choosing each other parts.
+        </p>
+
+        <div class="always-quote">
+            “No matter where life takes me, my heart will always know its way back to you.”
+        </div>
+
+        <p>
+            My baby, you are one of the most beautiful things that ever happened to my life.
+            You became part of my prayers, my plans, my memories, and my dreams.
+            You became someone I want to protect,
+            someone I want to support,
+            someone I want to reassure,
+            and someone I want to love better every single day.
+        </p>
+
+        <p>
+            And if one day we look back at everything,
+            I hope you remember that this love was real.
+            I hope you remember that you were chosen.
+            I hope you remember that in this little universe I made for you,
+            every star, every word, every promise, and every memory somehow leads back to one truth:
+            it has always been you.
+        </p>
+
+        <p class="letter-ending">
+            So if the universe gave me another chance,
+            another life, another beginning, or another road,
+            I would still look for you.
+            I would still choose you.
+            I would still love you.
+            Because in every universe my heart can imagine,
+            it would always be you.
+        </p>
+
+    </div>
+    `,
+    "",
+    ""
+)
 
         this.memories[8].video = "videos/bawat-daan.mp4";
         this.memories[8].dedication = `I dedicate this whole song to you, “Bawat Daan.”
