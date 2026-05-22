@@ -1304,6 +1304,26 @@ createMemories() {
             "This song is one of the most special stars in this little universe, because every time I hear it, I remember you.",
             "",
             ""
+
+)];
+
+    this.memories[9].video = "videos/bawat-daan.mp4";
+    this.memories[9].dedication = `I dedicate this whole song to you, “Bawat Daan.”
+
+I still remember the day na una mo itong pinarinig sa akin. I did not know that a song could suddenly become a place, a memory, and a feeling, but from that moment on, every time na naririnig ko itong kantang ito, ikaw agad ang naiisip ko. It became more than just music. It became a quiet reminder of you, of us, and of how every road in my heart somehow leads back to you.
+
+There is a line in the song that says, “Ikaw ang dulo,” and that small line feels like one of the simplest ways to explain what you are to me. You are not just someone I met along the way. You became the direction my heart follows, the answer it keeps finding, and the home it keeps choosing.
+
+Mula noong nakilala kita, parang nagkaroon ng saysay ang bawat lakad, bawat pagod, bawat pangarap, at bawat takot ko. Before you, there were days when I felt like I was only moving forward without knowing where I was really going. But then you came, and suddenly, everything felt softer. Everything felt warmer. Everything felt like it had a destination.
+
+You are my calm after every tiring day. You are the person I want to run to when the world feels heavy. You are the name my heart looks for in silence. Sa bawat saya, sa bawat lungkot, sa bawat pagod, at sa bawat pangarap, ikaw ang naiisip kong uuwian.
+
+This song reminds me that love is not always about perfect roads. Sometimes it is about choosing the same person even when the road is hard, even when the path is uncertain, and even when there are so many questions. And for me, no matter how many doubts, turns, or distances there may be, my heart already knows the answer.
+
+If my heart could be mapped, you would be the beginning, the middle, and the place it always returns to. Not because the road is always easy, but because loving you makes every road worth taking.
+
+Ikaw ang bawat daan ko.Ikaw ang pahinga ko.Ikaw ang pinipili ko.Ikaw ang uuwian ko.`;}
+            ""
         ),
 
         new Memory(
