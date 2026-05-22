@@ -1644,3 +1644,125 @@ button:hover {
         font-size: 19px;
     }
 }
+
+/* ========================= */
+/* SONG DEDICATION FIX */
+/* ========================= */
+
+.song-intro-letter::before,
+.song-dedication-letter::before {
+    content: "♪";
+    display: block;
+    text-align: center;
+    color: #ffd6ff;
+    font-size: 36px;
+    margin-bottom: 12px;
+    text-shadow:
+        0 0 10px rgba(255, 214, 255, 0.9),
+        0 0 25px rgba(223, 143, 255, 0.6);
+}
+
+.song-dedication-letter {
+    text-align: left;
+}
+
+.song-dedication-letter h3 {
+    text-align: center;
+    color: #ffd6ff;
+    font-size: 32px;
+    margin-bottom: 18px;
+    text-shadow:
+        0 0 10px rgba(255, 214, 255, 0.9),
+        0 0 25px rgba(223, 143, 255, 0.6);
+}
+
+.song-dedication-letter p {
+    color: #fff4ff;
+    font-size: 18px;
+    line-height: 1.9;
+    margin: 18px 0;
+    text-align: justify;
+}
+
+.dedication-opening {
+    text-align: center !important;
+    font-size: 21px !important;
+    font-weight: bold;
+    color: #ffe4fb !important;
+}
+
+.dedication-opening span {
+    color: #ffd6ff;
+    text-shadow:
+        0 0 10px rgba(255, 214, 255, 0.8),
+        0 0 22px rgba(223, 143, 255, 0.5);
+}
+
+.song-quote {
+    margin: 28px auto;
+    padding: 22px 26px;
+    max-width: 720px;
+    text-align: center;
+    color: #ffe4fb;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.6;
+    border-radius: 28px;
+    background:
+        radial-gradient(circle at center, rgba(255, 214, 255, 0.16), transparent 60%),
+        rgba(255, 255, 255, 0.045);
+    border: 1px solid rgba(255, 190, 255, 0.32);
+    text-shadow:
+        0 0 10px rgba(255, 214, 255, 0.85),
+        0 0 22px rgba(223, 143, 255, 0.55);
+    box-shadow:
+        0 0 22px rgba(223, 143, 255, 0.22),
+        inset 0 0 20px rgba(255, 255, 255, 0.04);
+}
+
+.song-ending {
+    margin: 30px auto;
+    padding: 26px 24px;
+    max-width: 620px;
+    text-align: center;
+    border-radius: 30px;
+    background:
+        radial-gradient(circle at center, rgba(255, 214, 255, 0.18), transparent 60%),
+        rgba(255, 255, 255, 0.045);
+    border: 1px solid rgba(255, 190, 255, 0.34);
+    box-shadow:
+        0 0 24px rgba(223, 143, 255, 0.25),
+        inset 0 0 22px rgba(255, 255, 255, 0.045);
+}
+
+.song-ending p {
+    margin: 8px 0;
+    text-align: center !important;
+    color: #ffdff7;
+    font-size: 23px;
+    font-weight: bold;
+    text-shadow:
+        0 0 10px rgba(255, 214, 255, 0.8),
+        0 0 24px rgba(223, 143, 255, 0.45);
+}
+
+@media (max-width: 900px) {
+    .song-dedication-letter h3 {
+        font-size: 26px;
+    }
+
+    .song-dedication-letter p {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .song-quote {
+        font-size: 20px;
+        padding: 18px 18px;
+    }
+
+    .song-ending p {
+        font-size: 19px;
+    }
+}
