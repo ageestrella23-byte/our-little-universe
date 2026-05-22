@@ -1,4 +1,7 @@
-import Memory from "./Memory.js";import ShootingStar from "./ShootingStar.js";import BackgroundStar from "./BackgroundStar.js";import Sparkle from "./Sparkle.js";
+import Memory from "./Memory.js";
+import ShootingStar from "./ShootingStar.js";
+import BackgroundStar from "./BackgroundStar.js";
+import Sparkle from "./Sparkle.js";
 
 export default class UniverseApp {constructor() {this.introScreen = document.getElementById("intro");this.universeScreen = document.getElementById("universe");
 
